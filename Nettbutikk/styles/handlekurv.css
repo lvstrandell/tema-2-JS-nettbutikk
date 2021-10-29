@@ -1,0 +1,151 @@
+#handlekurvh1 {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1em;
+  text-decoration: underline;
+}
+
+.h1-logo {
+  height: 50px;
+}
+
+.produkter-container {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 3em;
+}
+
+.produkter-header {
+  width: 100%;
+  max-width: 700x;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px solid black;
+  margin:  0 auto;
+}
+
+.produkter-tittel {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pris {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.antall {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+}
+
+/* ---------------------------------------------- */
+.kurv-produkter {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.produkter-pris {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.produkter-antall {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.produkter-total {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fjern-produkt {
+  height: 30px;
+  width: 30px;
+  margin-right: 35px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fjern-produkt:hover {
+  background-color: black;
+  color: rgb(255, 198, 52);
+  border: solid 2px black;
+}
+
+.kurv-img {
+  height: 100px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+} 
+/* -------------------------------------- */
+
+.total-container {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  border-top: solid black 2px;
+}
+
+.total-tittel {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.kurv-total {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+  font-size: 2rem;
+}
+
+.fullforkjop {
+  font-size: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+  padding: .5em;
+  margin: 2em;
+  border-radius: 30px;
+}
+
+.fullforkjop:hover {
+  background-color: black;
+  color: rgb(255, 198, 52);
+  border: none;
+}

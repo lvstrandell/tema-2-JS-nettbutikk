@@ -1,0 +1,45 @@
+#produkth1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 1em;
+  text-decoration: underline;
+}
+
+.h1-logo {
+  height: 50px;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3em;
+  text-align: center;
+  padding: 2em;
+}
+
+.produkt {
+  background-color: #f5f5f5;
+  height: 600px;
+  width: fit-content;
+  line-height: 3em;
+  filter: drop-shadow(3px 3px 15px lightgrey);
+  border-radius: 10px;
+}
+
+.produkt img {
+  height: 400px;
+  width: 350px;
+  object-fit: cover;
+}
+
+
+.addKurv {
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: black;
+  color: rgb(255, 198, 52);
+  cursor: pointer;
+}
